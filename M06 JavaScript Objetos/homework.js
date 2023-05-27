@@ -147,6 +147,7 @@ function agregarMetodoCalculoDescuento(objetoProducto) {
       const precioFinal = objetoProducto.precio - precioDescuento;
       return precioFinal;
    }
+   console.log(objetoProducto);
    return objetoProducto.calcularPrecioDescuento();
 }
 
